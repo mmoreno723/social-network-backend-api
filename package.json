@@ -1,0 +1,29 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmoreno723/social-network-backend-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmoreno723/social-network-backend-api/issues"
+  },
+  "homepage": "https://github.com/mmoreno723/social-network-backend-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
